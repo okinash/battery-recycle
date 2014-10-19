@@ -1,0 +1,17 @@
+<h1>Welcome to Recycle Batteries Application!</h1>
+
+<p>Click <a href="{{ path('battery_recycle_new') }}">here</a> to add new batteries to the box</p>
+
+<h3><u>Statistics:</u></h3>
+
+<table border="1"><tr><td>Battery Type</td><td>Total count</td></tr>
+    {%  if list is iterable %}
+
+        {% for row in list %}
+
+            <tr><td>{{ row.type }}</td><td>{{ row.cnt }}</td></tr>
+
+        {% endfor %}
+
+    {% endif %}
+</table>

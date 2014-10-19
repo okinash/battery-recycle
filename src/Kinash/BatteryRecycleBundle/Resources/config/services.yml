@@ -1,0 +1,10 @@
+parameters:
+#    battery_recycle.example.class: Kinash\BatteryRecycleBundle\Example
+
+services:
+#    battery_recycle.example:
+#        class: %battery_recycle.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+#  battery_pack_repository:
+ #       class:  Kinash\BatteryRecycleBundle\Entity\BatteryPackRepository
+ #       arguments: [ "@doctrine.orm.entity_manager" ]

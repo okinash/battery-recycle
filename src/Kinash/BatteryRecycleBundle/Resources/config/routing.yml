@@ -1,0 +1,6 @@
+battery_recycle_homepage:
+    path:     /
+    defaults: { _controller: BatteryRecycleBundle:Default:index }
+battery_recycle_new:
+    path:     /new
+    defaults: { _controller: BatteryRecycleBundle:Default:new }
